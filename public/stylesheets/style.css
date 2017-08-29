@@ -154,6 +154,50 @@ body {
     text-align: center;
 }
 
+.no-items {
+    color: #666;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 50px;
+}
+
+.label-success {
+    background-color: #5cb85c;
+    padding: 1%;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+
+#checkout-btn {
+    margin-left: 60%;
+}
+
+.total {
+    font-size: 20px;
+    margin-left: 4%;
+}
+
+#emptyCartDetails {
+    margin: 5% 27%;
+}
+
+.emptyCartLink {
+    background: #38B87C;
+    padding: 15px;
+    display: block;
+    width: 240px;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.emptyCartLink:hover {
+    background: #1b985e;
+}
+
+
 /*@media screen and (min-width:768px) {
     .brand {
         display: inherit;
