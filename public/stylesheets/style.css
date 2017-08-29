@@ -32,6 +32,10 @@ body {
     width: 100%;
 }
 
+.shop-link {
+    margin-top: 8.6%;
+}
+
 .thumbnail {
     height: 410px;
     width: 360px;
