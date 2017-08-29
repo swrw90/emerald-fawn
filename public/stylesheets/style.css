@@ -17,6 +17,10 @@ body {
     color: #009975;
 }
 
+.navbar-header {
+    margin-top: .6%;
+}
+
 .navbar-brand {
     max-height: 100px;
     max-width: 500px;
@@ -54,6 +58,7 @@ body {
 .caption {
     text-align: center;
 }
+
 
 /*Carousel Styles*/
 
