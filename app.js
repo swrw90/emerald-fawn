@@ -18,7 +18,10 @@ var userRoutes = require('./routes/user');
 
 var app = express();
 
-mongoose.connect('localhost:27017/shopping');
+// mongodb://heroku_087sxpc0:981pinqgvf6etkc244i20phtt0@ds111204.mlab.com:11204/heroku_087sxpc0
+// MONGODB_URI
+// mongoose.connect('localhost:27017/shopping');
+mongoose.connect('MONGODB_URI');
 require('./config/passport');
 
 // view engine setup
