@@ -18,7 +18,10 @@ var userRoutes = require('./routes/user');
 
 var app = express();
 
-mongoose.connect('localhost:27017/shopping');
+// mongodb://***REMOVED***0:***REMOVED***0@ds111204.mlab.com:11204/***REMOVED***0
+// MONGODB_URI
+// mongoose.connect('localhost:27017/shopping');
+mongoose.connect('MONGODB_URI');
 require('./config/passport');
 
 // view engine setup
