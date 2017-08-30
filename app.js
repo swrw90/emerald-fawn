@@ -12,17 +12,14 @@ var passport = require('passport');
 var flash = require('connect-flash');
 var validator = require('express-validator');
 var MongoStore = require('connect-mongo')(session);
-// var MONGODB_URI = 'mongodb://swrw90:Lateralus.1@ds111204.mlab.com:11204/heroku_087sxpc0';
 
 var routes = require('./routes/index');
 var userRoutes = require('./routes/user');
 
 var app = express();
 
-// mongodb://heroku_087sxpc0:981pinqgvf6etkc244i20phtt0@ds111204.mlab.com:11204/heroku_087sxpc0
-// MONGODB_URI
 // mongoose.connect('localhost:27017/shopping');
-mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/shopping');
 require('./config/passport');
 
 // view engine setup
