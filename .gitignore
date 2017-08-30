@@ -1,3 +1,5 @@
+*.orig
+
 # dependencies
 /node_modules
 
