@@ -117,7 +117,12 @@ body {
 
 .description {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: center;
+    text-align: left;
+}
+
+.description2 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
 }
 
 
@@ -272,8 +277,8 @@ body {
     }
     /*PRODUCTS PAGE*/
     .thumbnail {
-        height: 710px;
-        width: 560px;
+        height: 660px;
+        width: 290px;
         text-align: center;
         margin: auto;
         margin-bottom: 3%;
@@ -282,8 +287,9 @@ body {
         max-height: 370px;
     }
     .thumbnail .description {
-        font-size: 25px;
+        font-size: 20px;
         color: #7f7f7f;
+        text-align: center;
     }
     .price {
         font-weight: bold;
@@ -293,7 +299,7 @@ body {
         color: #fff;
         background-color: #5cb85c;
         padding: 2%;
-        font-size: 25px;
+        font-size: 18px;
         border-color: #4cae4c;
     }
     #content-align {
