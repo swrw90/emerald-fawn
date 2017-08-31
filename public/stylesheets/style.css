@@ -219,7 +219,81 @@ body {
 }
 
 
-/*MOBILE RESPONSIVE*/
+/**MOBILE RESPONSIVE**/
+
+@media (min-width: 500px) {
+    /*NAVBAR*/
+    .navbar-brand {
+        font-size: 60px;
+        margin-top: 6%;
+    }
+    .shop-link {
+        margin-top: 12%;
+        font-size: 35px;
+    }
+    .fa-2x {
+        font-size: 4em;
+    }
+    .caret {
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-top: 12px solid;
+    }
+    /*LANDING PAGE*/
+    .brand-name {
+        font-size: 76px;
+    }
+    .tagline-divider {
+        margin: 15px auto 3px;
+        max-width: 500px;
+        border-color: gray;
+    }
+    .tagline {
+        font-size: 25px;
+    }
+    .description {
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+    /*PRODUCTS PAGE*/
+    .thumbnail {
+        height: 710px;
+        width: 560px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+    .thumbnail img {
+        max-height: 370px;
+    }
+    .thumbnail .description {
+        font-size: 25px;
+        color: #7f7f7f;
+    }
+    .price {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .btn-success {
+        color: #fff;
+        background-color: #5cb85c;
+        padding: 2%;
+        font-size: 25px;
+        border-color: #4cae4c;
+    }
+    #content-align {
+        margin-top: 6%;
+    }
+    /*CART*/
+    .cart-box {
+        height: 300px;
+        margin-bottom: 20px;
+        padding: 30px 15px;
+        background: white;
+        background: rgba(255, 255, 255, 0.9);
+    }
+}
 
 
 /*@media screen and (min-width:768px) {
