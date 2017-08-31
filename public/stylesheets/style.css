@@ -221,11 +221,11 @@ body {
 
 /**MOBILE RESPONSIVE**/
 
-@media (min-width: 500px) {
+@media all and (min-width: 0px) and (max-width: 480px) {
     /*NAVBAR*/
     .navbar-brand {
-        font-size: 60px;
-        margin-top: 6%;
+        font-size: 30px;
+        margin-top: 0%;
     }
     .shop-link {
         margin-top: 12%;
@@ -240,8 +240,12 @@ body {
         border-top: 12px solid;
     }
     /*LANDING PAGE*/
+    .carousel-inner {
+        width: 100%;
+        height: 163px;
+    }
     .brand-name {
-        font-size: 76px;
+        font-size: 40px;
     }
     .tagline-divider {
         margin: 15px auto 3px;
@@ -249,11 +253,21 @@ body {
         border-color: gray;
     }
     .tagline {
-        font-size: 25px;
+        font-size: 23px;
+    }
+    #strong {
+        font-size: 44px;
     }
     .description {
+        margin-top: 30px;
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-align: center;
+        text-align: left;
+        font-size: 20px;
+    }
+    .description2 {
+        margin-top: 1%;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: left;
         font-size: 20px;
     }
     /*PRODUCTS PAGE*/
@@ -292,6 +306,27 @@ body {
         padding: 30px 15px;
         background: white;
         background: rgba(255, 255, 255, 0.9);
+    }
+    .no-items {
+        color: #666;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 50px;
+        width: 350px;
+    }
+    .emptyCartLink {
+        background: #38B87C;
+        padding: 15px;
+        display: block;
+        width: 240px;
+        color: #fff;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        /* font-size: 14px; */
+        border-radius: 4px;
+        margin: auto;
+        text-decoration: none;
+        text-align: center;
     }
 }
 
