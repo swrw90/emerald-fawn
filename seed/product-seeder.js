@@ -53,13 +53,13 @@ var products = [
         description: 'Used for filtering, odor removal, chemical sieve and gas absorption, Reiki stone used primarily for its powerful detoxification properties.',
         price: 20
     }),
-        new Product({
+    new Product({
         imagePath: 'https://scontent-sea1-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/20184280_1702884953348526_5560020806043435008_n.jpg?ig_cache_key=MTU2NDU3NjA5MDg0NzIyNzEzNg%3D%3D.2',
         title: 'Black Kyanite',
         description: 'Used for filtering, odor removal, chemical sieve and gas absorption, Reiki stone used primarily for its powerful detoxification properties.',
         price: 20
     }),
-        new Product({
+    new Product({
         imagePath: 'https://scontent-atl3-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/18879392_1910400642578496_6142546790903185408_n.jpg?ig_cache_key=MTUyODYzMzY3OTA0MjM5MjA4MQ%3D%3D.2',
         title: 'Amethyst',
         description: 'Used for filtering, odor removal, chemical sieve and gas absorption, Reiki stone used primarily for its powerful detoxification properties.',
